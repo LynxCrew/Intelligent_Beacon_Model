@@ -9,13 +9,13 @@ wget -O - https://raw.githubusercontent.com/LynxCrew/Intelligent_Beacon_Model/ma
 
 then add this to your moonraker.conf:
 ```
-[update_manager intelligent_default_mesh]
+[update_manager intelligent_beacon_model]
 type: git_repo
 channel: dev
 path: ~/intelligent_beacon_model
 origin: https://github.com/LynxCrew/Intelligent_Beacon_Model.git
 managed_services: klipper
-primary_branch: main
+primary_branch: master
 install_script: install.sh
 ```
 
