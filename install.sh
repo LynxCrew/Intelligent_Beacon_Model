@@ -29,7 +29,7 @@ function check_download {
 
     if [ ! -d "${REPO_PATH}" ]; then
         echo "[DOWNLOAD] Downloading IntelligentBeaconModel repository..."
-        if git -C $repodirname clone https://github.com/LynxCrew/Intelligent_Default_Mesh.git $repobasename; then
+        if git -C $repodirname clone https://github.com/LynxCrew/Intelligent_Beacon_Model.git $repobasename; then
             chmod +x ${REPO_PATH}/install.sh
             chmod +x ${REPO_PATH}/update.sh
             chmod +x ${REPO_PATH}/uninstall.sh
