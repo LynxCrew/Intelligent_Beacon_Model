@@ -1,10 +1,10 @@
-# Intelligented Default Bed-Mesh
+# Intelligented Default Beacon-Model
 
 ## Installation
 SSH into you pi and run:
 ```
 cd ~
-wget -O - https://raw.githubusercontent.com/LynxCrew/Intelligent_Beacon_Model/main/install.sh | bash
+wget -O - https://raw.githubusercontent.com/LynxCrew/Intelligent_Beacon_Model/master/install.sh | bash
 ```
 
 then add this to your moonraker.conf:
