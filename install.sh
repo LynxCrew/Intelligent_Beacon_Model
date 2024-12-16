@@ -69,7 +69,7 @@ function restart_klipper {
 
 
 printf "\n======================================\n"
-echo "- Klicky install script -"
+echo "- IntelligentBeaconModel install script -"
 printf "======================================\n\n"
 
 
